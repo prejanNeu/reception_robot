@@ -1,8 +1,8 @@
 import tkinter as tk
 from PIL import Image, ImageTk
 
-btn_width = 200
-btn_height = 200
+btn_width = 150
+btn_height = 150
 
 device_width = 1000
 device_height = 600
@@ -114,7 +114,6 @@ def course_img():
 
 
 def faculty_img():
-    global bt
     btn_image = Image.open("2.jpeg")
     max_size = (btn_width, btn_height)
     btn_image.thumbnail(max_size)
@@ -178,8 +177,15 @@ def create_background():
 
 def home_page():
     new_window.destroy()
+
+
+
+def main():
+    while True:
+        create_background()
+        print("RUn create ba")
+
     
 
 if __name__ == "__main__":
-    while True:
-        create_background()
+    main()
