@@ -1,11 +1,4 @@
 
-Sure! Below is a link for you to directly download the README.md file. It contains the full explanation, including the code overview.
-
-Download README.md
-
-Contents of the README.md file:
-markdown
-Copy code
 # Presidential Graduate School App
 
 This is a simple Tkinter-based graphical user interface (GUI) application designed for the Presidential Graduate School. The app allows users to navigate through various sections of the school such as **Courses**, **Faculty**, **Clubs**, and **Contact**. Each section is displayed on a separate window with interactive buttons and images, and users can navigate back to the main page using an arrow button.
